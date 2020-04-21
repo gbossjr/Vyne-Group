@@ -61,6 +61,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/specialties"
+        android:textAllCaps="true"
+        android:layout_above="@id/contact"
+        android:layout_marginBottom="180dp"
+        android:layout_marginLeft="32dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diversity"
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/contact"
         android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"/>
