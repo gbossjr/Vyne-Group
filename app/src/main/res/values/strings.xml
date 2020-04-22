@@ -5,4 +5,10 @@
     <string name="employer_sh">Employers</string>
     <string name="jobseekers_sh">Job Seekers</string>
     <string name="specialties">specialties</string>
+    <string name="Training">Training &amp; Mentorship</string>
+    <string name="business_analyst">Business Analyst</string>
+    <string name="project_management">Project Management</string>
+    <string name="agile">Agile</string>
+    <string name="diversity">Diversity</string>
+    <string name="submit_resume">Submit Resume</string>
 </resources>

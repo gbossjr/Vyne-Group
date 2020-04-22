@@ -38,7 +38,7 @@
         android:paddingBottom="16dp"/>
 
     <TextView
-        android:id="@+id/em_subheading"
+        android:id="@+id/employee_subheading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/employer_sh"
@@ -48,7 +48,7 @@
         android:layout_marginLeft="64dp"/>
 
     <TextView
-        android:id="@+id/jobseek_subheading"
+        android:id="@+id/jobseeking_subheading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/jobseekers_sh"
@@ -59,20 +59,60 @@
         android:layout_marginRight="64dp"/>
 
     <TextView
+        android:id="@+id/specialties"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/specialties"
         android:textAllCaps="true"
         android:layout_above="@id/contact"
-        android:layout_marginBottom="180dp"
+        android:layout_marginBottom="190dp"
         android:layout_marginLeft="32dp"
         android:textStyle="bold"
         android:textSize="18sp"/>
 
     <TextView
+        android:id="@+id/business"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Diversity"
+        android:text="@string/business_analyst"
+        android:layout_above="@id/contact"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="32dp"/>
+
+
+    <TextView
+        android:id="@+id/training"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Training"
+        android:layout_above="@id/contact"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="32dp"/>
+
+    <TextView
+        android:id="@+id/project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/project_management"
+        android:layout_above="@id/contact"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agile"
+        android:layout_above="@id/contact"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diversity"
+        android:layout_above="@id/contact"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="32dp"/>
 
     <TextView
         android:id="@+id/contact"
@@ -81,7 +121,13 @@
         android:text="@string/contact"
         android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"/>
-
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_resume"
+        android:layout_above="@id/contact"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="32dp"
+        android:layout_alignParentRight="true"/>
 
 </RelativeLayout>
